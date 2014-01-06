@@ -5,11 +5,17 @@
         version   = "0.1.0">
 
     <name>AppMakerHarness</name>
+    <description>Runs Appmaker apps cross-platformy</description>
 
-    <description>
-        Runs Appmaker apps cross-platformy
-    </description>
+    <access origin="*" />
+    <gap:platform name="ios" />
+
+    <icon src="icon.png" />
 
     <preference name="phonegap-version" value="3.1.0" />
-    
+    <preference name="fullscreen" value="true" />
+
+    <gap:plugin name="org.apache.cordova.inappbrowser" />
+    <gap:plugin name="com.phonegap.plugin.statusbar" />
+
 </widget>

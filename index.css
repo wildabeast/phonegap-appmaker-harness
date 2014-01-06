@@ -1,0 +1,39 @@
+body {
+  background: #ddd;
+  font-family: sans-serif;
+}
+
+.results {
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  background: white;
+  border: 1px solid #aaa;
+  padding-left: 0;
+}
+
+.results li {
+  list-style: none;
+  padding-left: 0;
+  border-top: 1px solid #aaa;
+  font-weight: bold;
+}
+
+.results li:first-child {
+  border-top: 0;
+}
+
+.results a {
+  display: block;
+  padding: 10px;
+  color: #333;
+  text-decoration: none;
+}
+
+.search, 
+.searchval {
+	width: 100%; 
+	font-size: 30px;
+}
+
+

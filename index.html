@@ -1,7 +1,18 @@
 <html>
+	<head>
+		<link href="index.css" media="screen" rel="stylesheet" type="text/css"></link>
     <body>
-        <button class="search">Search</button>
+    	<h1>Gallery Search</h1>
+    	<input type="text" class="searchval" />
+        <button class="search">Go</button>
         <ul class="results">
         </ul>
     </body>
+	<script type="text/javascript" src="cordova.js"></script>
+	<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+	<script type="text/javascript" src="js/make-api.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript">
+        app.init();
+    </script>
 </html>
